@@ -25,7 +25,7 @@
 <li>Navigate to you Realm (dropdown on the the top left of the page)</li>
 <li>In the navigation panel click <strong>User Fedration</strong></li><br>
 <p>
-  <img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" alt="User Fedration" />
+  <img src="./images/rhsso-user-fedration.png" alt="User Fedration" />
   </p><br>
 <li>Provide the AD configuration details as shown in the screenshot and click <strong>Save.</strong></li>
 
