@@ -74,11 +74,11 @@
 </tbody>
 </table>
 </ul>
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
+<p><img src="./images/ad-setup.png" alt="AD Setup" /></p>
 <ul>
 <li>Once the screen reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
 </ul>
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-all.png" alt="Sync All Users" /></p>
+<p><img src="./images/sync-all.png" alt="Sync All Users" /></p>
 <ul>
 <li>In the navigation pane click <strong>Users</strong> and click <strong>View all users </strong>on the screen that appears on the right pane this will list all the users that have been synchronized with RH SSO.</li>
 <li>Log out and login back with a user synced with RH SSO and the user should be able to login as get an unauthorized error. This indicates that the user login is successfull but the user does not have the appropriate access rights.</li>
@@ -90,8 +90,8 @@
 <li>Under developer settings:(<a class="ex ks" href="https://github.com/settings/developers" rel="noopener nofollow">https://github.com/settings/developers</a>)</li>
 </ul>
 
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/dev-settings.png" alt="Git Hub Dev Settings" /></p>
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/github-app.png" alt="GitHub App" /></p>
+<p><img src="./images/dev-settings.png" alt="Git Hub Dev Settings" /></p>
+<p><img src="./images/github-app.png" alt="GitHub App" /></p>
 <ul>
 <li>Click on&nbsp;<strong class="gk kt">New Oauth App:</strong> (name anything as per your use-case). You will see a client id and client secret generated for your application.</li>
 <li>Keep a note of the client secret.</li>
@@ -126,9 +126,9 @@
 <li>On the navigation panel select the Identity Provider &amp; select Github as the provider. Copy the client id and client secret generated above from GitHub and past it here.</li>
 </ul>
 
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/idp.png" alt="IDP" /></p>
+<p><img src="./images/idp.png" alt="IDP" /></p>
 <ul>
 <li>Copy the Redirect URL from here and use it in GitHub as mentioned in step 4 above Authorization callback URL</li>
 <li>Logout of RH SSO. It will take you back to the RH SSO Login Screen. Here you should see an additional option <strong>GitHub</strong> for login.</li>
 </ul>
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/login-rhsso.png" alt="GitHub Login" /></p>
+<p><img src="./images/login-rhsso.png" alt="GitHub Login" /></p>
